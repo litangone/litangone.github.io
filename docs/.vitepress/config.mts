@@ -13,7 +13,6 @@ import { blogTheme } from './blog-theme'
 
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
-  base,
   extends: blogTheme,
   lang: 'zh-cn',
   title: 'litang blog',
