@@ -44,7 +44,7 @@ const blogTheme = getThemeConfig({
   themeColor: 'el-blue',
 
   // 文章默认作者
-  author: '粥里有勺糖',
+  author: '李唐',
 
   // 友链
   friend: [
