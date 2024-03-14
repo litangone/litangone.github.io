@@ -1,13 +1,8 @@
 {
-    "headers": [
-      {
-        "source": "/assets/(.*)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=31536000, immutable"
-          }
-        ]
-      }
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "/rss", "destination": "/rss.xml" },
+      { "source": "/feed", "destination": "/rss.xml" },
+      { "source": "/feed/", "destination": "/rss.xml" }
     ]
   }
