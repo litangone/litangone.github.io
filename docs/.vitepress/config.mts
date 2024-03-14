@@ -10,11 +10,11 @@ import { blogTheme } from './blog-theme'
 //   : '/'
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
-const base = '/litangone.github.io'
+const base = '/litangone.github.io/'
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
-  extends: blogTheme,
   base,
+  extends: blogTheme,
   lang: 'zh-cn',
   title: 'litang blog',
   description: '李唐的博客，基于 vitepress 实现',
